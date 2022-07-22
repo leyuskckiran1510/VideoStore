@@ -23,7 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-^r_+a7czuh=0+d2jwj5psfkxey!uds6n$z-6m*)%f7dsn1$z5o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+# debug set ti true as static files are not being served
+# in localhost:8000/static/ due to django security restrictions
+DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', ]
 

@@ -10,8 +10,7 @@ import os
 
 
 def index(request):
-    videos = Video.objects.all()
-    return render(request, 'video/index.html', {'videos': videos})
+    return render(request, 'video/index.html')
 
 
 def video_check(file):
@@ -147,6 +146,7 @@ def charge(request):
 
 # signup
 def signup(request):
+    error=''
     if request.method == "POST":
         form = UserForm(request.POST)
         if form.is_valid():
@@ -154,9 +154,12 @@ def signup(request):
             user.set_password(form.cleaned_data['password1'])
             user.save()
             return redirect('list')
+        else:
+            error = form.errors
+
     else:
         form = UserForm()
-    return render(request, 'video/signup.html', {'form': form})
+    return render(request, 'video/signup.html', {'form': form, 'error': error})
 
 
 # login and logout using django.contrib.auth
