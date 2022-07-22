@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SignupPage</title>
+</head>
+<body>
+<h1>Signup</h1>
+{% if error %}
+    <p>{{ error }}</p>
+{% endif %}
+<form action="signup" method="post">
+{%csrf_token%}
+{% if form %}
+    {{ form.as_p }}
+<p>
+        <input type="submit" value="Login">
+    </p>
+{% endif %}
+</form>
+
+
+</body>
+</html>
