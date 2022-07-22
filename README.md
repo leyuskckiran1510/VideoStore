@@ -1,5 +1,6 @@
 # VideoStore
-Simple Video Store and Price tagging system in django
+Simple Video Store and Price tagging system in django.
+Frontend are used or copied from different opensource projects .
 
 # How to Use
 1)      git clone https://github.com/leyuskckiran1510/VideoStore.git
