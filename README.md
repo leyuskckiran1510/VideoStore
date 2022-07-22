@@ -17,4 +17,4 @@ Frontend are used or copied from different opensource projects .
 
 
 ## PS
-I have used openCV2 for calculating the lenght of video which was referenced from (StackOverFlow)(!https://stackoverflow.com/questions/3844430/how-to-get-the-duration-of-a-video-in-python/61572332#61572332)
+I have used openCV2 for calculating the lenght of video which was referenced from [StackOverFlow](https://stackoverflow.com/questions/3844430/how-to-get-the-duration-of-a-video-in-python/61572332#61572332)
