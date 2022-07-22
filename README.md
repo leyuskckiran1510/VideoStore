@@ -20,7 +20,7 @@ Frontend are used or copied from different opensource projects .
 I have used openCV2 for calculating the lenght of video which was referenced from [StackOverFlow](https://stackoverflow.com/questions/3844430/how-to-get-the-duration-of-a-video-in-python/61572332#61572332)
 
 ## Frontend Used From These Creators in Public Domain Liscence
-* loginpage *
+**loginpage**
 [Mohuth](https://codepen.io/Mohuth)
-*videolistcard*
+**videolistcard**
 [Mojtaba Seyedi](https://www.mojtabaseyedi.com/)[On Git Hub](https://github.com/seyedi)
