@@ -24,4 +24,4 @@ I have used openCV2 for calculating the lenght of video which was referenced fro
 [Mohuth](https://codepen.io/Mohuth)
 <br>
 **videolistcard**
-[Mojtaba Seyedi](https://www.mojtabaseyedi.com/)[On Git Hub](https://github.com/seyedi)
+[Mojtaba Seyedi](https://www.mojtabaseyedi.com/)  [On Git Hub](https://github.com/seyedi)
