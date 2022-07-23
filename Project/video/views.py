@@ -85,6 +85,7 @@ def video_list(request):
 
 @login_required
 def video_list_json(request):
+    print("Was Here "*100)
     videos = Video.objects.filter(author=request.user)
     if not videos:
         response = {'OOPS': 'NO Videos associated with this user.'}

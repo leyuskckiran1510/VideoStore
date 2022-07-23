@@ -9,6 +9,7 @@ urlpatterns = [
     path('upload/', views.video_new, name='upload'),
     path('charge/', views.charge, name='charge'),
     path('list/', views.video_list, name='list'),
+    path('vapi/list', views.video_list_json, name='list_json'),
     path('list/<str:date>', views.video_list, name='list_detail'),
     path('accounts/login/', views.login_view, name='login'),
     path('accounts/logout', views.logout_view, name='logout'),
@@ -17,7 +18,7 @@ urlpatterns = [
     path('vapi/<str:year>/<str:month>/<str:day>', views.video_dump, name='return'),
     path('vapi/<str:year>/<str:month>', views.video_dump, name='return'),
     path('vapi/<str:year>', views.video_dump, name='return'),
-    path('vapi/list', views.video_list_json, name='list_json'),
+
 
 
 ]
